@@ -1,23 +1,45 @@
-# Simple Calculator in C
+🧮 Advanced Multi-Functional Calculator in C
+📌 About the Project
 
-This is my **first project in C programming** as a B.Tech Computer Science student.  
-I wanted to apply what I learned in class (operators, conditionals, input/output), so I built a basic calculator.  
+This project is a Multi-Functional Calculator built using the C programming language.
+It goes beyond basic arithmetic and includes advanced mathematical operations like power, square root, factorial, area calculation, and prime number checking.
 
-## What It Does
-👉 Takes two numbers from the user  
-👉 Lets the user choose an operator (+, -, *, /)  
-👉 Performs the calculation and prints the result  
-👉 Handles division by zero  
-👉 Program exits after one calculation (for now 😅)  
+Through this project, I’ve strengthened my understanding of:
 
-## My Next Steps 🚀
-- Add a **loop** so that multiple calculations can be done in one run  
-- Convert into a **menu-driven calculator**  
-- Add **mathematical functions** (square, cube, square root)  
+Switch-case statements
 
-## Example Run
+Loops and conditionals
 
+Functions from math.h
 
-## Why I Built This
-To start my **coding journey** with a hands-on project, and to practice solving problems step by step.  
-This is the foundation for more advanced projects I’ll build in the future 🚀  
+Logical structuring and debugging
+
+⚙️ Features
+
+✅ Addition, Subtraction, Multiplication, Division
+✅ Power (^) operation using pow()
+✅ Square root (sqrt()) for any chosen number
+✅ Factorial calculation
+✅ Area calculator for Circle, Triangle, Rectangle, and Square
+✅ Prime number checker
+✅ Error handling for invalid inputs and division by zero
+
+🧠 Learning Outcomes
+
+Improved logic building and problem-solving
+
+Hands-on experience using control statements
+
+Deeper understanding of how real-world calculators work internally
+
+🚀 Future Enhancements
+
+Integrate file handling for storing results
+
+Create a GUI version using C++/Python
+
+🧩 Tech Stack
+
+Language: C
+
+Libraries: stdio.h, math.h 

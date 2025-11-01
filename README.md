@@ -1,45 +1,75 @@
-🧮 Advanced Multi-Functional Calculator in C
-📌 About the Project
+🧮 Advanced Interactive Calculator (C Language)
+📘 Overview
 
-This project is a Multi-Functional Calculator built using the C programming language.
-It goes beyond basic arithmetic and includes advanced mathematical operations like power, square root, factorial, area calculation, and prime number checking.
-
-Through this project, I’ve strengthened my understanding of:
-
-Switch-case statements
-
-Loops and conditionals
-
-Functions from math.h
-
-Logical structuring and debugging
+This project is an interactive, multi-functional calculator written in C.
+It goes beyond basic arithmetic by supporting scientific, logical, and geometric operations — all within a user-friendly menu-driven system.
+The calculator allows continuous use until the user chooses to exit, making it a true console-based application.
 
 ⚙️ Features
 
-✅ Addition, Subtraction, Multiplication, Division
-✅ Power (^) operation using pow()
-✅ Square root (sqrt()) for any chosen number
-✅ Factorial calculation
-✅ Area calculator for Circle, Triangle, Rectangle, and Square
-✅ Prime number checker
-✅ Error handling for invalid inputs and division by zero
+✅ Basic Arithmetic — Addition, Subtraction, Multiplication, Division
+✅ Power & Square Root operations (pow, sqrt)
+✅ Factorial Calculation with negative input validation
+✅ Area Calculations — Circle, Triangle, Rectangle, Square
+✅ Prime Number Checker
+✅ Continuous Operation using do-while Loop
+✅ Input Validation for Division by Zero
+✅ Clean Console using system("cls")
+✅ Modular and beginner-friendly code structure
 
-🧠 Learning Outcomes
+🧠 Concepts Used
 
-Improved logic building and problem-solving
+Loops (for, do...while)
 
-Hands-on experience using control statements
+Conditional statements (if-else, switch)
 
-Deeper understanding of how real-world calculators work internally
+Mathematical functions (pow, sqrt)
 
-🚀 Future Enhancements
+Logical flow control
 
-Integrate file handling for storing results
+Input/output handling
 
-Create a GUI version using C++/Python
+Dynamic program repetition
 
-🧩 Tech Stack
+🧩 How It Works
+
+The user selects an operation.
+
+Inputs required numbers.
+
+The calculator performs the operation and displays the result.
+
+The user decides whether to continue or exit.
+
+The screen clears for a new calculation (on supported compilers).
+
+🧰 Technologies Used
 
 Language: C
 
-Libraries: stdio.h, math.h 
+Headers: stdio.h, math.h, stdlib.h
+
+Compiler: GCC / Code::Blocks / Dev C++
+
+🚀 How to Run
+
+Copy the code into your IDE (Code::Blocks, Turbo C++, or GCC).
+
+Compile and run the program.
+
+Follow on-screen instructions to perform various operations.
+
+Type ‘Y’ to continue or ‘N’ to exit.
+
+🌟 Example Output
+Enter operation (+, -, *, /, ^, s, f, r, l): f
+Enter a number: 5
+The factorial of 5 is: 120
+
+Do you want to do more calculations (Y/N): y
+
+💬 Author
+
+👤 Navneet Pandit
+🎓 B.Tech CSE Student | Developer in Progress | Lifelong Learner
+📍 India
